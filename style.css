@@ -1,0 +1,35 @@
+* {
+  background-color: blanchedalmond;
+}
+
+.navbar{
+  background-color: brown;
+  height: 100px;
+  width: 100%;
+}
+
+.button {
+  background-image: url('images/bingkaiklik-8.png');
+  background-size: 100%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  background-image: url('https://via.placeholder.com/150'); /* Ganti dengan URL gambar */
+  background-size: cover; /* Menyesuaikan gambar dengan ukuran elemen */
+  background-position: center; /* Pusatkan gambar */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+  color: white; /* Warna teks */
+  text-decoration: none; /* Hilangkan garis bawah */
+  padding: 15px 30px; /* Tambahkan ruang dalam link */
+  border-radius: 5px; /* Opsional: sudut membulat */
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+
+
